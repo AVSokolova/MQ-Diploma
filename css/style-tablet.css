@@ -1,0 +1,195 @@
+@media (min-width: 641px) and (max-width:1199px) {
+    .header {
+        max-height: 390px;
+        background-image: url("../images/banner-bg-tablet.jpg");
+    }
+
+    .header_menu_nav_icon {
+        margin: 50px 33px 0 0;
+    }
+
+    .header_logo_link {
+        width: 20.5%;
+        margin: -35px auto auto 36px;
+    }
+
+    .header_title {
+        margin: 88px auto auto auto;
+
+        font-size: 2.5rem;
+        line-height: 53px;
+    }
+
+    .trend {
+        margin-top: 14px;
+    }
+
+
+    .trend_title {
+        font-size: 1.1rem;
+    }
+
+
+    .trend_posts {
+        gap: 5px;
+        margin-top: 7px;
+    }
+
+    .trend_post {
+        width: 49.6%;
+        min-height: 247px;
+    }
+
+    .trend_post_content {
+        margin: 32px 0px 29px 32px;
+    }
+
+    .trend_post_title_link {
+
+        font-size: 1.06rem;
+        line-height: 22px;
+    }
+
+    .main_posts {
+        width: 60%;
+        margin-top: 48px;
+        gap: 46px;
+    }
+    
+    .post {
+        margin: 0px 46px 0 24px;
+    }
+
+    .post_title_link {
+        font-size: 1.05rem;
+        line-height: 22px;
+    }
+    
+    .post_date_author {
+        margin-top: 29px;
+    }
+    
+    .post_excerpt {
+        margin-top: 26px;
+
+        font-size: 0.93rem;
+        line-height: 22px;
+    }
+
+    .post_excerpt_large {
+        margin-top: -5px;
+    }
+
+
+    
+    .sidebar {
+        width: 40%;
+        margin: 43px 0 0 -24px;
+    }
+    
+    .sidebar_preview {
+        margin: 31px 0px 0 14px;
+    }
+    
+    .sidebar_title {
+        font-size: 0.9rem;
+    }
+    
+    .sidebar_preview_post_title_link {
+    
+        font-size: 0.88rem;
+        line-height: 19px;
+    }
+
+    .sidebar_forms {
+        margin-top: 58px;
+    }
+    
+    .search {
+        margin: 0 20px auto 11px;
+    }
+        
+    .sidebar_mail {
+        margin: 58px 11px auto auto;
+    }
+    
+    .sidebar_tags {
+        margin-top: 56px;
+    }
+    
+    .sidebar_topics {
+        margin-top: 52px;
+    }
+ 
+    .index {
+        padding-left: 0;
+    }
+    
+    .products_posts {
+        margin-left: 23px;
+        margin-right: 23px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .products_post {
+        width: 50%;
+    }
+
+    .products_post_exceerpt {
+        line-height: 21px;
+    }
+    
+    .footer_content {
+        margin-top: 21px;
+    }
+
+
+
+
+    
+    .popup_box {
+        height: 596px;
+        width: 388px;
+        margin-top: calc(62vh - 293px);
+        margin-left: calc(50% - 194px);
+    }
+
+    .close {
+        margin-top: -36px;
+    }
+    
+    .popup_title {
+        padding-top: 48px;
+
+        font-size: 1.15rem;
+    }
+    
+    .popup_content {
+        margin: -15px 27px auto 27px;
+    }
+
+    .popup_text {
+        margin-top: 24px;
+        font-size: 0.82rem;
+        line-height: 15px;
+    }
+
+    .popup_field {
+        margin-top: 12px;
+    }
+    
+    
+    .popup_email {
+        margin-top: 8px;
+    }
+
+    .popup_radio {
+        width: 25%;
+    }
+    
+    .popup_feedback {
+        margin-top: 11px;
+    }
+
+}

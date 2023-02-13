@@ -1,0 +1,276 @@
+@media (min-width: 1200px) {
+    .header {
+        max-height: 450px;
+        background-image: url("../images/banner-bg.jpg");
+    }
+
+    .header_menu_nav_icon {
+        display: none;
+    }
+
+    .header_menu_list {
+        margin-top: 40px;
+        margin-right: 14.8vw;
+        gap: 36px;
+        display: flex;
+    }
+    
+    .header_menu_item {
+        list-style-type: none;
+    }
+    
+    .header_menu_item:hover {
+        border-bottom: 1px solid #ffffff;
+    }
+    
+    .header_menu_item_link {
+        font-family: "Open Sans", "Arial", sans-serif;
+        font-size: 0.8rem;
+        font-weight: 400;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    .header_logo_link {
+        width: 11%;
+        margin: -2.8% auto auto 14.8%;
+    }
+
+    .header_title {
+        width: 43%;
+        margin: 6.2% auto auto auto;
+
+        font-size: 2.8rem;
+        line-height: 73px;
+    }
+
+    .trend {
+        margin-top: 25px;
+    }
+
+
+    .trend_title {
+        font-size: 1.25rem;
+    }
+
+
+    .trend_posts {
+        gap: 6px;
+        margin-top: 12px;
+    }
+
+    .trend_post {
+        width: 24.6%;
+        min-height: 320px;
+    }
+
+    .trend_post_content {
+        margin: 30px 0px 25px 31px;
+    }
+
+    .trend_post_title_link {
+
+        font-size: 1.27rem;
+        line-height: 25px;
+    }
+
+    .main_posts {
+        width: 48%;
+
+        margin-top: 63px;
+        margin-left: 34px;
+
+        gap: 58px;
+    }
+
+    .post {
+        border-bottom: none;
+
+        display: flex;
+    }
+
+    .post_pic {
+        width: 50%;
+    }
+
+    .post_content {
+        margin-top: -17px;
+        margin-left: 28px;
+    }
+
+    .post_title {
+        margin-top: 20px;
+    }
+
+    .post_title_link {
+        font-size: 1.26rem;
+        line-height: 24px;
+    }
+
+    .post_date_author {
+        margin-top: 25px;
+    }
+
+    .post_excerpt {
+        margin-top: 45px;
+        line-height: 22px;
+        font-size: 0.94rem;
+    }
+
+    .post_excerpt_large {
+        margin-top: -5px;
+    }
+
+    .sidebar {
+        width: 20%;
+        margin-left: 103px;
+        margin-top: 58px;
+    }
+
+    .sidebar_news {
+        margin-left: -15px;
+    }
+
+    .sidebar_preview {
+        margin: 32px 0px 0 28px;
+    }
+
+    .sidebar_title {
+        font-size: 0.87rem;
+    }
+
+    .sidebar_preview_post_title_link {
+    
+        font-size: 0.88rem;
+        line-height: 19px;
+    }
+
+    .sidebar_forms {
+        margin-top: 59px;
+    }
+    
+    .search {
+        width: 84%;
+    }
+        
+    .sidebar_mail {
+        margin: 57px 34px auto auto;
+    }
+    
+    .sidebar_tags {
+        width: 90%;
+        margin-top: 56px;
+    }
+    
+    .sidebar_topics {
+        width: 90%;
+        margin-top: 54px;
+    }
+ 
+    .index {
+        padding-left: 0;
+    }
+
+    .products {
+        margin-top: 46px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 74%;
+    }
+
+    .products_posts {
+        display: flex;
+    }
+    
+    .products_post {
+        width: 33.3%;
+    }
+
+    .products_post_border {
+        margin: -11% 7% auto 8%;
+    }
+
+    .products_post_content {
+        margin: 14% 5% 8% 5%;
+    }
+
+    .products_post_title {
+        font-size: 1.27rem;
+    }
+    
+    .footer {
+        width: 70%;
+    }
+
+    .footer_content {
+        margin-top: 47px;
+    }
+
+    .address {
+        margin-top: 68px;
+    }
+
+
+
+
+    .popup_box {
+        height: 591px;
+        width: 389px;
+        margin-top: calc(47vh - 291px);
+        margin-left: calc(50% - 193px);
+    }
+
+    .close {
+        width: 17px;
+        height: 17px;
+        margin-top: -25px;
+    }
+    
+    .popup_title {
+        padding-top: 48px;
+
+        font-size: 1.26rem;
+    }
+    
+    .popup_content {
+        margin: -15px 27px auto 27px;
+    }
+
+    .popup_text {
+        margin-top: 24px;
+        font-size: 0.82rem;
+        line-height: 15px;
+    }
+
+    .popup_field {
+        margin-top: 8px;
+    }
+    
+    
+    .popup_email {
+        margin-top: 8px;
+    }
+
+    .popup_email_check {
+        width: 15px;
+        height: 20px;
+        background-size: 16px;
+    }
+
+    .popup_radio {
+        width: 17%;
+    }
+
+    .popup_email_variant {
+        margin-top: 5px;
+    }
+    
+    .popup_feedback {
+        margin-top: 6px;
+    }
+
+
+
+
+}

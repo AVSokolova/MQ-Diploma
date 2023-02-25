@@ -1,6 +1,7 @@
 @media (min-width: 1200px) {
     .header {
-        max-height: 450px;
+        /* max-height: 450px; */
+        height: auto;
         background-image: url("../images/banner-bg.jpg");
     }
 
@@ -9,8 +10,11 @@
     }
 
     .header_menu_list {
-        margin-top: 40px;
-        margin-right: 14.8vw;
+        /* margin-top: 40px;
+        margin-right: 14.8vw; */
+        margin: 0;
+        padding-top: 41px;
+        padding-right: 14.8vw;
         gap: 36px;
         display: flex;
     }
@@ -20,7 +24,8 @@
     }
     
     .header_menu_item:hover {
-        border-bottom: 1px solid #ffffff;
+        /* border-bottom: 1px solid #ffffff; */
+        text-decoration: underline; 
     }
     
     .header_menu_item_link {
@@ -34,12 +39,14 @@
 
     .header_logo_link {
         width: 11%;
-        margin: -2.8% auto auto 14.8%;
+        margin: 1.6% auto auto 14.8%;
     }
 
     .header_title {
         width: 43%;
         margin: 6.2% auto auto auto;
+        padding-bottom: 125px;
+
 
         font-size: 2.8rem;
         line-height: 73px;
@@ -76,31 +83,32 @@
     }
 
     .main_posts {
-        width: 48%;
+        width: 54%;
 
         margin-top: 63px;
-        margin-left: 34px;
 
-        gap: 58px;
+        gap: 63px;
     }
 
     .post {
+        margin: 0;
+
         border-bottom: none;
 
-        display: flex;
+        flex-wrap: nowrap;
     }
 
     .post_pic {
-        width: 50%;
+        width: 47%;
     }
 
     .post_content {
-        margin-top: -17px;
+        margin-top: 0;
         margin-left: 28px;
     }
 
     .post_title {
-        margin-top: 20px;
+        margin-top: 6px;
     }
 
     .post_title_link {
@@ -123,17 +131,12 @@
     }
 
     .sidebar {
-        width: 20%;
-        margin-left: 103px;
-        margin-top: 58px;
-    }
-
-    .sidebar_news {
-        margin-left: -15px;
+        width: 270px;
+        margin-top: 60px;
     }
 
     .sidebar_preview {
-        margin: 32px 0px 0 28px;
+        margin: 29px 0px 0 0;
     }
 
     .sidebar_title {
@@ -141,31 +144,34 @@
     }
 
     .sidebar_preview_post_title_link {
-    
-        font-size: 0.88rem;
-        line-height: 19px;
+        font-size: 0.87rem;
+        line-height: 18px;
+
+        display: block;
     }
 
     .sidebar_forms {
-        margin-top: 59px;
+        margin-top: 63px;
     }
     
     .search {
-        width: 84%;
+        width: 100%;
     }
         
     .sidebar_mail {
-        margin: 57px 34px auto auto;
+        margin-top: 57px;
     }
     
     .sidebar_tags {
-        width: 90%;
         margin-top: 56px;
     }
     
     .sidebar_topics {
-        width: 90%;
-        margin-top: 54px;
+        margin-top: 58px;
+    }
+
+    .sidebar_topics_menu {
+        margin: 22px auto auto 0px;;
     }
  
     .index {
@@ -173,10 +179,11 @@
     }
 
     .products {
-        margin-top: 46px;
+        margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
-        width: 74%;
+        max-width: 1235px;
+
     }
 
     .products_posts {
@@ -185,14 +192,16 @@
     
     .products_post {
         width: 33.3%;
+
+        margin-bottom: 0;
     }
 
     .products_post_border {
-        margin: -11% 7% auto 8%;
+        margin: -38px 33px 0 33px;
     }
 
     .products_post_content {
-        margin: 14% 5% 8% 5%;
+        padding: 47px 14px 26px 18px;
     }
 
     .products_post_title {
@@ -215,26 +224,26 @@
 
 
     .popup_box {
-        height: 591px;
         width: 389px;
-        margin-top: calc(47vh - 291px);
-        margin-left: calc(50% - 193px);
+        
+        padding-bottom: 59px;
     }
 
     .close {
         width: 17px;
         height: 17px;
-        margin-top: -25px;
+        top: -25px;
     }
     
     .popup_title {
-        padding-top: 48px;
+        margin-top: 47px;
+        margin-bottom: 0;
 
         font-size: 1.26rem;
     }
     
     .popup_content {
-        margin: -15px 27px auto 27px;
+        margin: 0 27px auto 27px;
     }
 
     .popup_text {

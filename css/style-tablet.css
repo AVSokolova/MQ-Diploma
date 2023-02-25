@@ -1,6 +1,7 @@
 @media (min-width: 641px) and (max-width:1199px) {
     .header {
-        max-height: 390px;
+        /* max-height: 390px; */
+        height: auto;
         background-image: url("../images/banner-bg-tablet.jpg");
     }
 
@@ -10,11 +11,12 @@
 
     .header_logo_link {
         width: 20.5%;
-        margin: -35px auto auto 36px;
+        margin: 43px auto auto 36px;
     }
 
     .header_title {
         margin: 88px auto auto auto;
+        padding-bottom: 114px;
 
         font-size: 2.5rem;
         line-height: 53px;
@@ -41,7 +43,7 @@
     }
 
     .trend_post_content {
-        margin: 32px 0px 29px 32px;
+        margin: 28px 20px 25px 32px;
     }
 
     .trend_post_title_link {
@@ -51,13 +53,13 @@
     }
 
     .main_posts {
-        width: 60%;
+        width: 56%;
         margin-top: 48px;
-        gap: 46px;
+        gap: 47px;
     }
     
     .post {
-        margin: 0px 46px 0 24px;
+       margin: 0;
     }
 
     .post_title_link {
@@ -83,12 +85,11 @@
 
     
     .sidebar {
-        width: 40%;
-        margin: 43px 0 0 -24px;
+        width: 270px;
     }
     
     .sidebar_preview {
-        margin: 31px 0px 0 14px;
+        margin: 31px 0px 0 0;
     }
     
     .sidebar_title {
@@ -96,21 +97,16 @@
     }
     
     .sidebar_preview_post_title_link {
-    
-        font-size: 0.88rem;
-        line-height: 19px;
+        font-size: 0.87rem;
+        line-height: 20px;
     }
 
     .sidebar_forms {
-        margin-top: 58px;
-    }
-    
-    .search {
-        margin: 0 20px auto 11px;
+        margin-top: 61px;
     }
         
     .sidebar_mail {
-        margin: 58px 11px auto auto;
+        margin-top: 58px;
     }
     
     .sidebar_tags {
@@ -118,21 +114,27 @@
     }
     
     .sidebar_topics {
-        margin-top: 52px;
+        margin-top: 60px;
     }
  
     .index {
         padding-left: 0;
     }
+
+    .products {
+        max-width: 724px;
+    }
     
     .products_posts {
-        margin-left: 23px;
-        margin-right: 23px;
         display: flex;
         flex-wrap: wrap;
     }
     
     .products_post {
+        margin-bottom: 25px;    
+        margin-left: 0;
+
+        max-width: 500px;
         width: 50%;
     }
 
@@ -141,7 +143,7 @@
     }
     
     .footer_content {
-        margin-top: 21px;
+        margin-top: 5px;
     }
 
 
@@ -149,18 +151,16 @@
 
     
     .popup_box {
-        height: 596px;
         width: 388px;
-        margin-top: calc(62vh - 293px);
-        margin-left: calc(50% - 194px);
+        padding-bottom: 56px;
     }
 
     .close {
-        margin-top: -36px;
+        top: -36px;
     }
     
     .popup_title {
-        padding-top: 48px;
+        margin-top: 48px;
 
         font-size: 1.15rem;
     }
@@ -186,6 +186,10 @@
 
     .popup_radio {
         width: 25%;
+    }
+
+    .popup_email_variant {
+        margin-top: 5px;
     }
     
     .popup_feedback {

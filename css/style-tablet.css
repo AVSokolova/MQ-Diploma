@@ -1,22 +1,31 @@
 @media (min-width: 641px) and (max-width:1199px) {
     .header {
-        /* max-height: 390px; */
         height: auto;
+        padding-top: 43px;
+        padding-bottom: 114px;
         background-image: url("../images/banner-bg-tablet.jpg");
     }
 
-    .header_menu_nav_icon {
-        margin: 50px 33px 0 0;
+    .header_logo_menu {
+        max-width: 706px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: nowrap;
     }
 
     .header_logo_link {
-        width: 20.5%;
-        margin: 43px auto auto 36px;
+        width: 22.5%;
+        margin: 0;
+    }
+
+    .header_menu_nav_icon {
+        margin: 0;
     }
 
     .header_title {
         margin: 88px auto auto auto;
-        padding-bottom: 114px;
 
         font-size: 2.5rem;
         line-height: 53px;
@@ -87,6 +96,10 @@
     .sidebar {
         width: 270px;
     }
+
+    .sidebar_news {
+        width: 100%;
+    }
     
     .sidebar_preview {
         margin: 31px 0px 0 0;
@@ -102,6 +115,7 @@
     }
 
     .sidebar_forms {
+        width: 100%;
         margin-top: 61px;
     }
         
@@ -110,10 +124,12 @@
     }
     
     .sidebar_tags {
+        width: 100%;
         margin-top: 56px;
     }
     
     .sidebar_topics {
+        width: 100%;
         margin-top: 60px;
     }
  
@@ -128,6 +144,7 @@
     .products_posts {
         display: flex;
         flex-wrap: wrap;
+        gap: 6%;
     }
     
     .products_post {
@@ -135,7 +152,7 @@
         margin-left: 0;
 
         max-width: 500px;
-        width: 50%;
+        width: 46%;
     }
 
     .products_post_exceerpt {
@@ -151,8 +168,7 @@
 
     
     .popup_box {
-        width: 388px;
-        padding-bottom: 56px;
+        padding: 45px 27px 54px 29px;
     }
 
     .close {
@@ -160,13 +176,13 @@
     }
     
     .popup_title {
-        margin-top: 48px;
+        margin: 0;
 
         font-size: 1.15rem;
     }
     
     .popup_content {
-        margin: -15px 27px auto 27px;
+        margin-top: 0;
     }
 
     .popup_text {

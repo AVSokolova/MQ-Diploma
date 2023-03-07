@@ -1,8 +1,24 @@
 @media (min-width: 1200px) {
     .header {
-        /* max-height: 450px; */
+        padding-top: 15px;
+        padding-bottom: 129px;
         height: auto;
         background-image: url("../images/banner-bg.jpg");
+    }
+
+    .header_logo_menu {
+        max-width: 1200px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .header_logo_link {
+        width: 15%;
+        margin: 0;
     }
 
     .header_menu_nav_icon {
@@ -10,22 +26,18 @@
     }
 
     .header_menu_list {
-        /* margin-top: 40px;
-        margin-right: 14.8vw; */
-        margin: 0;
-        padding-top: 41px;
-        padding-right: 14.8vw;
         gap: 36px;
         display: flex;
     }
     
     .header_menu_item {
         list-style-type: none;
+        margin-bottom: 10px;
     }
     
     .header_menu_item:hover {
-        /* border-bottom: 1px solid #ffffff; */
-        text-decoration: underline; 
+        border-bottom: 1px solid #ffffff;
+        color: #ffffff;
     }
     
     .header_menu_item_link {
@@ -37,16 +49,11 @@
         color: #ffffff;
     }
 
-    .header_logo_link {
-        width: 11%;
-        margin: 1.6% auto auto 14.8%;
-    }
+
 
     .header_title {
         width: 43%;
-        margin: 6.2% auto auto auto;
-        padding-bottom: 125px;
-
+        margin: 5.2% auto auto auto;
 
         font-size: 2.8rem;
         line-height: 73px;
@@ -73,7 +80,7 @@
     }
 
     .trend_post_content {
-        margin: 30px 0px 25px 31px;
+        margin: 30px 31px 25px 31px;
     }
 
     .trend_post_title_link {
@@ -100,6 +107,7 @@
 
     .post_pic {
         width: 47%;
+        max-height: 300px;
     }
 
     .post_content {
@@ -135,11 +143,16 @@
         margin-top: 60px;
     }
 
+    .sidebar_news {
+        width: 100%;
+    }
+
     .sidebar_preview {
         margin: 29px 0px 0 0;
     }
 
     .sidebar_title {
+        margin: 0;
         font-size: 0.87rem;
     }
 
@@ -151,6 +164,7 @@
     }
 
     .sidebar_forms {
+        width: 100%;
         margin-top: 63px;
     }
     
@@ -164,10 +178,12 @@
     
     .sidebar_tags {
         margin-top: 56px;
+        width: 100%;
     }
     
     .sidebar_topics {
         margin-top: 58px;
+        width: 100%;
     }
 
     .sidebar_topics_menu {
@@ -197,7 +213,7 @@
     }
 
     .products_post_border {
-        margin: -38px 33px 0 33px;
+        margin-top: -38px;
     }
 
     .products_post_content {
@@ -224,9 +240,7 @@
 
 
     .popup_box {
-        width: 389px;
-        
-        padding-bottom: 59px;
+        padding: 32px 33px 53px 28px;
     }
 
     .close {
@@ -236,14 +250,13 @@
     }
     
     .popup_title {
-        margin-top: 47px;
         margin-bottom: 0;
 
         font-size: 1.26rem;
     }
     
     .popup_content {
-        margin: 0 27px auto 27px;
+        margin-top: 0;
     }
 
     .popup_text {

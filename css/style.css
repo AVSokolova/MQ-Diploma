@@ -323,12 +323,14 @@ body {
 }
 
 .sidebar {
-    width: 330px;
+    width: 100%;
     margin-top: 43px;
 }
 
 .sidebar_news {
-    width: 100%;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sidebar_preview {
@@ -336,7 +338,8 @@ body {
 }
 
 .sidebar_title {
-    margin-top: 0;
+    margin-top: 0;    
+    margin-bottom: 0;
 
     font-family: "Open Sans", "Arial", sans-serif;
     font-size: 1rem;
@@ -400,23 +403,28 @@ body {
     color: #b59f5b;
 }
 
-.sidebar_forms {
+.sidebar_forms {    
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 63px;
 }
 
 .form_search {
-    margin: 0;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
 
 .search {
-    display: flex;
-    justify-content: center;
+    flex-grow: 1;
 }
 
 .field {
     padding-left: 17px;
     padding-right: 10px;
-    width: 80%;
+    width: 100%;
     max-width: 330px;
     height: 47px;
     
@@ -477,6 +485,8 @@ body {
 
 .form_mail {
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .mail {
@@ -500,6 +510,8 @@ body {
     max-width: 380px;
     height: 47px;
     margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
 
     font-family: "Open Sans", "Arial", sans-serif;
     font-size: 14px;
@@ -521,8 +533,10 @@ body {
 }
 
 .sidebar_tags {
-    width: 100%;
-    margin-top: 40px;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 41px;
 }
 
 .sidebar_tags_menu {
@@ -557,7 +571,9 @@ body {
 }
 
 .sidebar_topics {
-    width: 100%;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 5px;
 }
 
@@ -616,6 +632,7 @@ body {
 
 .products_post {
     max-width: 135px;
+    width: 100%;
     margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -628,9 +645,7 @@ body {
 .products_post_border {
     border: 3px solid rgba(181, 159, 91, 0.6);
 
-    margin: -36px 15px auto 14px;;
-
-    flex-grow: 1;
+    margin-top: -36px;
 }
 
 .products_post_content {
@@ -823,7 +838,8 @@ body {
 .popup_box {
     position: relative;
     width: 331px;
-    padding-bottom: 32px;
+    padding: 10px 26px 32px 23px;
+    margin: 15px;
 
     background-color: #ffffff;
 }
@@ -842,8 +858,6 @@ body {
 }
 
 .popup_title {
-    margin-top: 25px;
-
     font-family: "Open Sans", "Arial", sans-serif;
     font-size: 1rem;
     font-weight: bold;
@@ -865,7 +879,7 @@ body {
 }
 
 .popup_content {
-    margin: 24px 27px auto 23px;
+    margin-top: 24px;
 }
 
 

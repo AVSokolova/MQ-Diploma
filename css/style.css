@@ -48,7 +48,7 @@ body {
 
 .header_logo_link {
     width: 75%;
-    margin: 223px auto auto 45px;
+    margin: 223px 0 auto auto;
 }
 
 .header_logo {
@@ -100,7 +100,7 @@ body {
 
 .trend {
     width: 100%;
-    margin-top: 7px;
+    margin-top: 24px;
 
     display: flex;
     flex-wrap: wrap;
@@ -184,6 +184,7 @@ body {
     margin: 5% 5% 5% 5%;
 
     border: 3px solid rgba(181, 159, 91, 0.6);
+    flex-grow: 1;
 }
 
 .trend_post_content {
@@ -253,6 +254,7 @@ body {
     border-bottom: 3px solid #eee;
 
     display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -324,7 +326,7 @@ body {
 
 .sidebar {
     width: 100%;
-    margin-top: 43px;
+    margin-top: 42px;
 }
 
 .sidebar_news {
@@ -411,9 +413,6 @@ body {
 }
 
 .form_search {
-    max-width: 380px;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
 }
 
@@ -425,7 +424,6 @@ body {
     padding-left: 17px;
     padding-right: 10px;
     width: 100%;
-    max-width: 330px;
     height: 47px;
     
     box-sizing: border-box;
@@ -470,8 +468,8 @@ body {
     background-position: center;
 }
 
-.search_button::before {
-    content: "";
+.search_button:hover {
+    background-color: #323232;
 }
 
 .search_button_icon {
@@ -501,13 +499,10 @@ body {
 
 .field_mail {
     width: 100%;
-    max-width: 380px;
-
 }
 
 .form_button {
     width: 100%;
-    max-width: 380px;
     height: 47px;
     margin-top: 19px;
     margin-left: auto;
@@ -524,8 +519,8 @@ body {
     background: #b59f5b;
 }
 
-.mail button:hover {
-    border-top: 1px solid #b9b29b;
+.form_button:hover {
+    background-color: #323232;
 }
 
 .mail button::before {
@@ -580,7 +575,7 @@ body {
 .sidebar_topics_menu {
     padding-left: 0;
     margin: 22px auto auto 0;
-    gap: 15px;
+    gap: 11px;
 
     display: flex;
     flex-wrap: wrap;
@@ -631,25 +626,25 @@ body {
 }
 
 .products_post {
-    max-width: 135px;
     width: 100%;
     margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .products_post_border {
-    border: 3px solid rgba(181, 159, 91, 0.6);
-
+    width: 90%;
     margin-top: -36px;
+    border: 3px solid rgba(181, 159, 91, 0.6);
+    flex-grow: 1;
 }
 
 .products_post_content {
-    padding: 47px 14px 26px 18px;
+    padding: 47px 22px 26px 18px;
 }
 
 .products_post_title {
@@ -687,13 +682,14 @@ body {
 }
   
 .products_post_buy {
+    width: 100%;
     margin-top: 22px;
 
     display: flex;
+    justify-content: space-between;
 }
 
 .products_post_price {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
 } 
@@ -725,7 +721,7 @@ body {
 }
 
 .products_post_buy_magazine_button {
-    width: 258px;
+    width: 141px;
     height: 47px;
 
     font-family: "Open Sans", "Arial", sans-serif;
@@ -740,9 +736,8 @@ body {
 }
 
 .products_post_buy_magazine_button:hover {
-    border-top: 1px solid #b9b29b;
+    background-color: #323232;
 }
-
 
 .footer {
     width: 90%;

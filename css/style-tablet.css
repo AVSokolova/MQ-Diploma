@@ -32,7 +32,7 @@
     }
 
     .trend {
-        margin-top: 14px;
+        margin-top: 30px;
     }
 
 
@@ -138,21 +138,28 @@
     }
 
     .products {
-        max-width: 724px;
+        max-width: 683px;
     }
     
     .products_posts {
         display: flex;
         flex-wrap: wrap;
-        gap: 6%;
+        gap: 5%;
     }
     
     .products_post {
         margin-bottom: 25px;    
         margin-left: 0;
 
-        max-width: 500px;
-        width: 46%;
+        width: 47%;
+    }
+
+    .products_post_border {
+        width: 100%;
+    }
+
+    .products_post_content {
+        padding: 42px 14px 26px 14px;
     }
 
     .products_post_exceerpt {
